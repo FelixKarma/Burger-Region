@@ -1,0 +1,32 @@
+body{
+    font-family: 'roboto' , sans-serif ;
+    font-size: 2em;
+    background-size: cover;
+    background-image: url(img/background_pierre.png)
+   }
+
+ nav {
+
+     
+     position: fixed;
+   list-style: none;
+   text-decoration: none;
+    
+
+}
+
+.liennav {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.justify-arroud {
+    padding: auto;
+    margin:  20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    
+}
