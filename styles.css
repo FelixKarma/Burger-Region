@@ -1,0 +1,28 @@
+*{
+  font-family: Avenir, sans-serif;
+}
+fieldset{
+  background-color: RGBa(240, 160, 0, 0.2);
+}
+legend{
+  font-weight: bold;
+}
+.champ{
+  margin-bottom: 10px;
+}
+textarea{
+  width: 80%;
+  height: 100px;
+}
+input{
+  width: 150px;
+}
+input[type="radio"], input[type="checkbox"]{
+  width: auto;
+}
+input[type="submit"]{
+  width: 100px;
+}
+  
+  
+   
