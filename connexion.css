@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/background_pierre.png);
+    font-family: 'Roboto', sans serif;
+background-size: cover;
+}
+/* Centrer */
+form{
+    margin-top: 220px;   
+    padding: 40px 60px;
+    border-radius: 20px;
+    min-width: 10px;
+    min-height: 400;
+    
+}
+input,button{
+    border-radius: 35px;
+    font-size: 20px;
+}
+/* connexion  */
+h2
+{
+    color: white
+}
+/* Email  */
+class1
+{
+    color: white
+    text-align center;
+
+}
+/* Couleur TEXTE  */
+p{
+     color: white    
+}
