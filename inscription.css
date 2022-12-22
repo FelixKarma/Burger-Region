@@ -1,12 +1,21 @@
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: url(imgasset/background_pierre.png);
+    font-family: 'Roboto', sans serif;
     background-size: cover;
     font-family: 'Roboto', sans-serif;
 }
-
-.text-center{
-    text-align: center;
+/* Centrer */
+form{
+    margin-top: 100px;   
+    padding: 40px 60px;
+    border-radius: 20px;
+    min-width: 10px;
+    min-height: 400;
 }
+
 
 h1 {
     color: white;

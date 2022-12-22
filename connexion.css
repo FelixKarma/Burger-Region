@@ -2,36 +2,58 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(img/background_pierre.png);
+    background-image: url(imgasset/background_pierre.png);
     font-family: 'Roboto', sans serif;
 background-size: cover;
 }
 /* Centrer */
 form{
-    margin-top: 220px;   
+    margin-top: 100px;   
     padding: 40px 60px;
     border-radius: 20px;
     min-width: 10px;
     min-height: 400;
     
 }
-input,button{
-    border-radius: 35px;
-    font-size: 20px;
+input{
+    border-radius: 10px;
+    font-size: 30px;
+    background-color: #D9D9D9;
+    
 }
 /* connexion  */
 h2
 {
-    color: white
-}
-/* Email  */
-class1
-{
-    color: white
-    text-align center;
+    text-align: center;
+    font-size: 30px;
+    color: white;
 
 }
-/* Couleur TEXTE  */
-p{
-     color: white    
+
+
+/* Couleur TEXTE{ */ p, a {
+    text-align: center;
+    font-size: 22px;
+    color: white;
+   
+}
+
+.password{
+color: white;
+margin-top: 50px;  
+
+}
+button{
+background-color: red;
+color: white;
+border-radius: 10px;
+font-size: 20px;
+    display: block;
+    float: right;
+    margin-top: 4px
+}
+a{
+display: flex;
+    margin-top: 70px;
+    font-size: 22px;
 }
