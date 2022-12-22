@@ -1,28 +1,20 @@
-*{
-  font-family: Avenir, sans-serif;
+
+label
+
+{
+  margin-top: 220px;
+  padding: 40px 60px;
+  border-radius: 20px;
+  background-color: red;
+  min-width: 10px;
+  min-height: 400;
 }
-fieldset{
-  background-color: RGBa(240, 160, 0, 0.2);
+
+body {
+  background-image: url(img/background\ pierre.jpg);
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
 }
-legend{
-  font-weight: bold;
-}
-.champ{
-  margin-bottom: 10px;
-}
-textarea{
-  width: 80%;
-  height: 100px;
-}
-input{
-  width: 150px;
-}
-input[type="radio"], input[type="checkbox"]{
-  width: auto;
-}
-input[type="submit"]{
-  width: 100px;
-}
-  
+
   
    
