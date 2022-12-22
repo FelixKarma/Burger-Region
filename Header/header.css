@@ -1,44 +1,76 @@
-body {
-  font-family: "roboto", sans-serif;
-  font-size: 2em;
-  background-size: cover;
-  background-image: url(../imgasset/background_pierre.png);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+html {
+  font-size: 62.5%;
+}
+li {
+  
+  font-size: 1.8rem;
+  
+}
+.main-header {
+   background: rgb(194, 183, 183);
+  height: 1.5cm;
+  display: flex;
+  flex-direction: row;
+  
+}
+
 
 nav {
-  position: fixed;
-  list-style: none;
-  text-decoration: none;
+  margin: 10px;
 }
-
-.liennav {
-   
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-}
-
-.justify-arroud {
-   
-
+ul {
+  
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 30rem;
+  margin-top: 1em;
+  width: 140%;
+ list-style: none;
+}
+.ul-surli{
+  padding: 2px 10px 2px 10px;
+  background-color: rgba(0, 0, 0, 0.552);
+  border-radius: 20px;
+ 
+  }
+  #logo {
+    flex: 1 1 40rem;
+  }
+  body {
+    background-image: url(../imgasset/background_pierre.png);
+    background-size: cover;
+  }
+  .div-logo {
+    margin-left: 5rem;
+    background-color:rgb(194, 183, 183);
+    position: absolute;
+    padding: 10px;
+    border-radius: 60px 60px 60px 60px;
+  }
+a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.all{
+  position:fixed;
+  width: 100%;
 }
 
-.logo {
-}
 
-button{
-    
-    background-color: rgb(207, 197, 197);
-    width: 75px;
-    height: 35px;
-    
-    margin-left: 10em;
-    border-radius: 70px;
-    border: none;
 
-}
-header {
-    padding-left: 30em
-    
-}
+
+ 
+
+  
+
+  
+
+
+  
+ 
