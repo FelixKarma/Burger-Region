@@ -23,6 +23,7 @@ list-style: none;
  border-radius: 20px;
 }
 body {
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   background-image: url(../imgasset/background_pierre.png);
   background-size: cover;
