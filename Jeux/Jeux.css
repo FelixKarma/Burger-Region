@@ -3,9 +3,22 @@
     position: absolute;
     width: 600px;
     height: 200px;
-    border: 1px solid black;
+    border: 2px solid rgb(253, 253, 253);
     margin: 150px;
     margin-left: 500px;
+  }
+  .start-screen {
+    position: absolute;
+    font-size: 5vmin;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);} 
+
+  .score {
+    position: absolute;
+    font-size: 3vmin;
+    right: 1vmin;
+    top: 1vmin;
   }
   
   #dino {
