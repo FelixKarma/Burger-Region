@@ -6,21 +6,26 @@ h1,h2,h3,h4 {
 
     }
 
+
+.imgburger{
+
+    width:500px;
+    height:400px;
+    
+}
+
 .text-center{
     text-align: center;
     
     
 }
 
-.right {
-    float:right;
-     margin:0 10px 0 20px;
 
-}
 
 #conteneur{
 display: flex;
-flex-direction:row;
+justify-content: space-evenly;
+flex-wrap: wrap;
 }
 
 #logoregion {
@@ -30,24 +35,23 @@ flex-direction:row;
 
 .ulrecette {
     color: white;
+    font-size: large;
     
     
 }
 
-.element-e2
-{
-    margin-left: 20px;
+.rectangle1{
+    width:450px;
+    height:500px;
+    background-color: #00000050;
+    border-radius: 20px 20px 0px 0px;
+    border-style :solid ;
+    border-color: #A49A35;
+    
 }
 
-.element-e3
-{
-    margin-left: 10px;
-   
-}
-
-
-#rectangle1{
-    width:500px;
+.rectangle2{
+    width:600px;
     height:500px;
     background-color: #00000050;
     border-radius: 20px 20px 0px 0px;
@@ -57,11 +61,11 @@ flex-direction:row;
 }
 
 .img-center {
-    
-    display: flex;
-    
-    justify-content: center;
+display: flex;
+justify-content: center;
+margin-bottom: 20px;
 }
+
 #bg-img{
 background-color: #00000050;
 border-style :solid ;
