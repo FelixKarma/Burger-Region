@@ -1,0 +1,110 @@
+
+ .imgparticip{
+    display: flex;
+    justify-content: center;  
+    background-color: #00000050;
+    border-style :solid ;
+    border-color: #A49A35;
+    width: 500px;
+    color: #A49A35;
+    text-decoration: underline;
+    border-radius: 50%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: larger;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 32%;
+    margin-top:45px;
+    
+    
+  }
+
+p {
+ color:white;
+ font-size: 30px;
+ text-align: center;
+  
+}
+
+.title1{
+  display: flex;
+  justify-content: center;
+  background-color: #00000050;
+  border-style :solid ;
+  border-color: #A49A35;
+  border-radius: 275px 275px 0 0;
+  color: #A49A35;
+  height: 150px;
+  width: 400px;
+  padding-top: 30px;
+  text-decoration: underline;
+  margin-left: 35%;
+  position: relative;
+  margin-bottom: 45px;
+    
+ 
+
+  }
+
+  button:hover{
+
+    color:red;
+    background-color:chartreuse;
+}
+
+.r1{
+
+  display: flex;
+  justify-content: center;
+  
+  
+}
+
+.p1{
+margin-right: 50px;
+
+}
+
+.imgrgl{
+  height: 70px;
+}
+
+.imgrgl2{
+  height: 55px;
+}
+
+.num1{
+
+  display: flex;
+  background-color: blue;
+  border-radius: 50%;
+  color :black;
+  width: 70px;
+  justify-content: center;
+     
+}
+
+.num2{
+
+  display: flex;
+  background-color: white;
+  border-radius: 50%;
+  color :black;
+  width: 70px;
+  justify-content: center;
+}
+
+.num3{
+
+  display: flex;
+  background-color: red;
+  border-radius: 50%;
+  color :black;
+  width: 70px;
+  justify-content: center;
+}
+
+.blck {
+color: black;
+}
