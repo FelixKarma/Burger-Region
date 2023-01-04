@@ -25,17 +25,15 @@ let isAlive = setInterval(function () {
   if (cactusLeft < 50 && cactusLeft > 0 && dinoTop >= 140) {
     // collision
     // alert("Ton score: " + Math.round(currentScore));
-    if (window.confirm("Ton score: " + Math.round(currentScore)))
-{
-  window.location = 'http://127.0.0.1:5500/Burger-Region/jeux/jeux.html';
-}
-
+    if (window.confirm("Ton score: " + Math.round(currentScore))) {
+      window.location = "http://127.0.0.1:5500/Burger-Region/jeux/jeux.html";
+    }
   }
 }, 10);
 
 document.addEventListener("keydown", function (event) {
   jump();
-}); 
+});
 
 // let currentScore = 0;
 

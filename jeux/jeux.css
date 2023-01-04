@@ -1,89 +1,89 @@
 .game {
-    background-color: #dbdadf;
-    position: absolute;
-    width: 600px;
-    height: 200px;
-    border: 1px solid rgb(46, 40, 40);
-    border: 2px solid rgb(213, 209, 209);
-    margin: 150px;
-    margin-left: 500px;
-  }
-  .start-screen {
-    position: absolute;
-    font-size: 5vmin;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);} 
+  background-color: #dbdadf;
+  position: absolute;
+  width: 600px;
+  height: 200px;
+  border: 1px solid rgb(46, 40, 40);
+  border: 2px solid rgb(213, 209, 209);
+  margin: 150px;
+  margin-left: 500px;
+}
+.start-screen {
+  position: absolute;
+  font-size: 5vmin;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-  .score {
-    position: absolute;
-    font-size: 3vmin;
-    right: 1vmin;
-    top: 1vmin;
-  }
+.score {
+  position: absolute;
+  font-size: 3vmin;
+  right: 1vmin;
+  top: 1vmin;
+}
 
-  #dino {
-    width: 50px;
-    height: 50px;
-    background-image: url(img-jeux/trex.png);
-    background-size: 50px 50px;
-    position: relative;
+#dino {
+  width: 50px;
+  height: 50px;
+  background-image: url(img-jeux/trex.png);
+  background-size: 50px 50px;
+  position: relative;
+  top: 150px;
+}
+
+.jump {
+  animation: jump 0.4s linear;
+}
+
+@keyframes jump {
+  0% {
     top: 150px;
   }
-  
-  .jump {
-    animation: jump 0.4s linear;
+
+  30% {
+    top: 130px;
   }
-  
-  @keyframes jump {
-    0% {
-      top: 150px;
-    }
-  
-    30% {
-      top: 130px;
-    }
-  
-    50% {
-      top: 80px;
-    }
-  
-    80% {
-      top: 130px;
-    }
-  
-    100% {
-      top: 150px;
-    }
+
+  50% {
+    top: 80px;
   }
-  
-  #cactus {
-    width: 20px;
-    height: 40px;
-    position: relative;
-    top: 110px;
+
+  80% {
+    top: 130px;
+  }
+
+  100% {
+    top: 150px;
+  }
+}
+
+#cactus {
+  width: 20px;
+  height: 40px;
+  position: relative;
+  top: 110px;
+  left: 580px;
+
+  background-image: url("img-jeux/cactus.png");
+  background-size: 20px 40px;
+
+  animation: block 2s infinite linear;
+}
+
+@keyframes block {
+  0% {
     left: 580px;
-  
-    background-image: url("img-jeux/cactus.png");
-    background-size: 20px 40px;
-  
-    animation: block 2s infinite linear;
   }
-  
-  @keyframes block {
-    0% {
-      left: 580px;
-    }
-  
-    100% {
-      left: -20px;
-    }
+
+  100% {
+    left: -20px;
   }
-  #game-score {
-    color: white;
-    font-size: 25px;
-    font-family: sans-serif;
-    margin: 20px;
-    text-align: center;
-  
-  }
+}
+#game-score {
+  color: white;
+  font-size: 25px;
+  font-family: sans-serif;
+  margin: 20px;
+  text-align: center;
+}

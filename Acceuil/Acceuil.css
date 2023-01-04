@@ -1,21 +1,42 @@
+.ulrecette {
+  color: white;
+  font-size: large;
+}
 
-  
-  
+.rectangle1 {
+  rotate: -10deg;
+  margin-left: 1.5cm;
+  margin-top: 3cm;
+  padding: 15px;
+  width: 1000px;
+  height: 250px;
+  background-color: #00000050;
+  border-radius: 20px 20px 20px 20px;
+  border-style: solid;
+  border-color: #a49a35;
+}
 
+.text-center {
+  font-size: 25px;
+  color: aliceblue;
+  position: center;
+  text-align: center;
+}
 
-  
+.red {
+  color: red;
+}
 
-  
+.white {
+  color: rgb(255, 255, 255);
+}
 
+.blue {
+  color: blue;
+}
 
-
-
- 
-
-  
-
-  
-
-
-  
- 
+.img-chef {
+    position: absolute;
+   margin-left: 31.9cm;
+   margin-top: 0cm;
+}
