@@ -1,28 +1,37 @@
-
-.contenaire{
-    margin-top: 100px;
-    flex-wrap: wrap;
-    margin-right: 150px;
-display: flex;
-justify-content: space-evenly
+*{
+    from-family:avenir,sans-serif;
 
 }
+.contenaire{
+    margin-top: 100px;
+    display: flex;
+justify-content: space-evenly
+    }
 
+h1 {
+     color: #a49a35;
+     text-align: center;
+}
+  
 
   
-  
+.figure{
+    border: 1px solid #a49a35;;
+    padding:5px;
+    width: 100px;
+}
    
+ figcaption{
+    color:#a49a35 ;
+    text-emphasis-color:#a49a35;
+    text-align: center;
+    font-stretch:extra-condensed;
+ } 
   
-    
-  
-    
-  
-  
-    
-   
-  
-  
-  
+  .imgdim{
+    height: 150px;
+    width: 150px;
+  }
    
   
     
