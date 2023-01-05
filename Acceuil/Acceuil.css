@@ -18,7 +18,7 @@
 
 .text-center {
   font-size: 25px;
-  color: aliceblue;
+  color: rgb(255, 255, 255);
   position: center;
   text-align: center;
 }
@@ -36,7 +36,55 @@
 }
 
 .img-chef {
-    position: absolute;
-   margin-left: 31.9cm;
-   margin-top: 0cm;
+    /* position: absolute; */
+   margin-left: 1100px;
+   margin-top: -8cm;
+}
+.img-burgi {
+  height: 100px;
+}
+.second{
+  display: flex;
+  justify-content:center ;
+}
+h1{
+  color: rgb(255, 2, 2);
+}
+.img-star {
+  height:60px;
+  border: 0.5;
+}
+.bas{
+display: flex;
+justify-content: space-evenly;
+
+
+}
+.imgdim {
+  height: 200px;
+  width: 320px;
+}
+.bgimg{
+  background-color: white;
+  padding: 5px 5px 30px 5px;
+}
+
+.text-bas{
+  text-align: center;
+  color: azure;
+  font-size: 20px;
+  
+  width: 320px;
+}
+h4 {
+  
+  text-align: center;
+
+}
+
+.but-rec{
+  background-color: grey;
+  height: 30px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 20px 20px 20px 20px;
 }
