@@ -28,7 +28,10 @@ h1 {
     font-stretch:extra-condensed;
  } 
   
-  
+  .imgdim{
+    height: 150px;
+    width: 150px;
+  }
    
   
     
