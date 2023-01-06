@@ -24,18 +24,24 @@ text-align: center;
   margin-top: 20px;
   margin-left: 650px;
   padding: 1px 1px;
-  
+
 }
+
 .photo{
   width: 150px;
   height: 150px;
 }
 .upload{
   margin-left: 425px;
-  margin-top: 20px;
+  margin-top: 10px;
+  padding: 10px 10px;
 }
 .kulo{
  margin-left: 550px;
-
   padding: 10px;
+}
+.buttond{
+  margin-right: 135px;
+  padding: 10px 200px;
+
 }
