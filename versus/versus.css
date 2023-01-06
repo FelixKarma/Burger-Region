@@ -1,0 +1,13 @@
+.titre-vainqueur{
+    font-family: 'italianno', sans-serif;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    color: azure;
+    font-size: 50px;
+
+}
+.img-couteau{
+    height: 250px;
+
+}
