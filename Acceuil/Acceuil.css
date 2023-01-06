@@ -83,6 +83,7 @@ h4 {
 }
 
 .emp-but{
+  
   display: flex;
   justify-content: flex-start ;
   margin-top: 50px;
@@ -90,6 +91,7 @@ h4 {
   }
 
 .but-rec{
+  text-decoration: none;
   color: #fff;
   border: none;
  font-size: 30px;
@@ -115,7 +117,7 @@ margin-top: 300px;
 
 .site-footer
 {
-  background-color:#26272b;
+  background-color:rgb(194, 183, 183);;
   padding:30px 0 20px;
   font-size:15px;
   line-height:24px;
