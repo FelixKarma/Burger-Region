@@ -11,3 +11,39 @@
     height: 250px;
 
 }
+p{
+    text-decoration: underline;
+    color:#A49A35;
+    text-align: center;
+    font-size: 50px;    
+   
+}
+
+.imgdim {
+height: 200px;
+width: 320px;
+
+
+}
+
+.contener {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px
+}
+
+h5 {
+    color:white;
+    font-size: 25px;
+    text-align: center;
+    }
+
+h4{
+color: black;
+text-align: center;
+font-weight: bolder;
+}
+
+.bgimg{
+background-color: white;
+padding: 5px 5px 40px 5px;
