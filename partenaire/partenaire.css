@@ -1,7 +1,4 @@
-*{
-    from-family:avenir,sans-serif;
 
-}
 .contenaire{
     margin-top: 100px;
     display: flex;
@@ -26,11 +23,17 @@ h1 {
     text-emphasis-color:#a49a35;
     text-align: center;
     font-stretch:extra-condensed;
+    font-size: 25px;
  } 
   
   .imgdim{
     height: 150px;
     width: 150px;
+  }
+
+  a{
+
+    text-decoration: none;
   }
    
   
