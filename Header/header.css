@@ -1,5 +1,5 @@
 .main-header {
-   background: rgb(194, 183, 183);
+   background: rgb(212, 202, 202);
   height: 1.5cm;
   display: flex;
   flex-direction: row;
@@ -19,7 +19,7 @@ list-style: none;
 .ul-surli{
  font-size: 130%; 
  padding: 2px 10px 2px 10px;
- background-color: rgba(0, 0, 0, 0.552);
+ /* background-color: rgba(0, 0, 0, 0.552); */
  border-radius: 20px;
 }
 body {
@@ -31,7 +31,7 @@ body {
 }
 .div-logo {
   margin-left: 5rem;
-  background-color:rgb(194, 183, 183);
+  background-color:rgb(212, 202, 202);
   position: absolute;
   padding: 10px;
   border-radius: 4px 4px 80px 80px;
