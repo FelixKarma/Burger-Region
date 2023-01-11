@@ -1,0 +1,47 @@
+h1{
+  color: white;
+text-align: center;
+
+}
+
+#burgers{
+
+  width: 150px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-left: 668px;
+}
+
+.test{
+  margin-left: 550px;
+}
+.frame {
+  display: flex;
+  width: 155px;
+  height: 155px;
+  border: 3px solid #ccc;
+  background: white;
+  margin-top: 20px;
+  margin-left: 650px;
+  padding: 1px 1px;
+
+}
+
+.photo{
+  width: 150px;
+  height: 150px;
+}
+.upload{
+  margin-left: 425px;
+  margin-top: 10px;
+  padding: 10px 10px;
+}
+.kulo{
+ margin-left: 550px;
+  padding: 10px;
+}
+.buttond{
+  margin-right: 158px;
+  padding: 10px 200px;
+
+}
