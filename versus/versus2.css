@@ -1,0 +1,25 @@
+*{
+    from-family:avenir,sans-serif;
+}
+
+.#{
+    
+}
+
+
+
+Versus{
+    position: absolute;
+    width: 284px;
+    height: 160px;
+    align-content: center;
+
+}
+
+.coloumn1{
+    float: left;
+}
+
+.coloumn2{
+    float: right;
+}
