@@ -1,0 +1,15 @@
+h1 {
+    color: rgb(239, 236, 236);
+}
+.carte {
+display: flex;
+justify-content: center
+}
+.titre {
+    display: flex;
+    justify-content: center;
+}
+.pr {
+    
+    background-color: aqua;
+}
