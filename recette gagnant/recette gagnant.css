@@ -1,0 +1,45 @@
+.vid{
+
+    width: 700px;
+    height: 500px;
+
+}
+
+.h1{
+text-align: center;
+color: white;
+
+}
+
+.container {
+
+display: flex;
+
+}
+
+.rectangle1{
+    width:450px;
+    height:500px;
+    background-color: #00000050;
+    border-radius: 20px 20px 0px 0px;
+    border-style :solid ;
+    border-color: #A49A35;
+    
+}
+
+.text-center{
+    text-align: center;
+}
+
+.ulrecette {
+    color: white;
+    font-size: large;
+    
+    
+}
+
+h1,h2,h3,h4 {
+    text-decoration: underline;
+    color:#A49A35;
+
+    }
