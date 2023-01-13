@@ -65,7 +65,7 @@ justify-content: center;
 margin-bottom: 20px;
 }
 
-#bg-img{
+.bg-img{
 background-color: #00000050;
 border-style :solid ;
 border-color: #A49A35;
@@ -91,5 +91,27 @@ margin-top: 10px;
 float: right;
 }
 
+#like-count{
+
+   color: white; 
+}
  
+button:hover {
+
+    background-color: blue;
+}
+
+.dim-cpt{
+
+    font-size: 50px;
+    
+}
+
+.compteur{
+
+display: flex;
+
+align-items: center;
+justify-content: space-evenly;
+}
 
