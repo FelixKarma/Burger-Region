@@ -1,15 +1,66 @@
+
 h1 {
+    font-family: 'italianno', sans-serif;
+    margin-left: 50px;
+    margin-top: 70px;
     color: rgb(239, 236, 236);
 }
 .carte {
+    margin-top: 60px;
 display: flex;
-justify-content: center
+justify-content: center;
+
+
+
 }
 .titre {
+    
+   
     display: flex;
     justify-content: center;
 }
-.pr {
+area:hover {
+    background-color: gold;
+  }
+  .contenaire-c-r{
+    display: flex;
+    justify-content: space-around;
+  }
+  .region-block1 {
+    text-decoration: none;
+    margin-top: 120px;
     
-    background-color: aqua;
-}
+   
+    
+color: azure;
+  }
+  .region-block2 {
+    margin-top: 120px;
+    
+    color: azure;
+  }
+  .logreg{
+    width: 50px;
+    height: 60px;
+    
+  }
+  li {
+    text-decoration: none;
+    display: flex;
+    align-items:center;
+    
+  }
+  .lien-region {
+    text-decoration: none;
+    color: white;
+  }
+  .logooccitanie{
+    margin-left: -23px;
+    width: 100px;
+    height: 90px;
+   
+
+  }
+  .el-liens {
+    margin-right: 10px;
+  }
