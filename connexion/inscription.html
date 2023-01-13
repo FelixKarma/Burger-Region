@@ -35,24 +35,25 @@
 
 
   <main class="conteneur">
+    <form action="../importburger/import.html">
     <h1 class="h1">INSCRIPTION</h1>
     <div class="flex-row centre">
       <div class="cadre ligne">
         <p class="p">VOTRE NOM*</p>
-        <input class="cadre" type="username" placeholder="Prénom & Nom">
+        <input class="cadre" type="username" required placeholder="Prénom & Nom">
         <p class="p">E-MAIL*</p>
-        <input class="cadre" type="email" placeholder="email">
+        <input class="cadre" type="email" required placeholder="email">
         <p class="p">MOT DE PASSE*</p>
-        <input class="cadre" type="password" placeholder="MOT DE PASSE">
+        <input class="cadre" type="password" required placeholder="MOT DE PASSE">
         <p class="p">CONFIRMEZ MOT DE PASSE*</p>
-        <input class="cadre" type="password" placeholder="MOT DE PASSE*">
+        <input class="cadre" type="password" required placeholder="MOT DE PASSE*">
       </div>
 
       <div class="cadre">
         <p class="p">ADRESSE</p>
         <input class="cadre" type="adresse" placeholder="89 rue de paris 9320">
         <p class="p">REGION*</p>
-        <input class="cadre" type="region" placeholder="OBLIGATOIRE*">
+        <input class="cadre" type="region" required placeholder="OBLIGATOIRE*">
         <p class="p">TELEPHONE</p>
         <input class="cadre" type="telephone" placeholder="TELEPHONE">
         <p class="p">PARRAINAGE(FALCUTATIF)</p>
@@ -60,8 +61,9 @@
       </div>
     </div>
     <div class="button">
-      <a href="../importburger/import.html"><button>S'INSCRIRE</button></a>
+      <button style="cursor:url(cursor.cur), auto;">S'INSCRIRE</button>
     </div>
+  </form>
   </main>
 
   <footer class="footer-distributed">
