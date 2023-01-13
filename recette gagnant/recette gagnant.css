@@ -1,0 +1,58 @@
+.vid{
+
+    width: 700px;
+    height: 500px;
+
+}
+
+.h1{
+text-align: center;
+color: white;
+
+}
+
+.container {
+
+display: flex;
+justify-content: space-evenly;
+
+}
+
+.rectangle1{
+    width:450px;
+    height:500px;
+    background-color: #00000050;
+    border-radius: 20px 20px 0px 0px;
+    border-style :solid ;
+    border-color: #A49A35;
+    
+}
+
+.text-center{
+    text-align: center;
+}
+
+.ulrecette {
+    color: white;
+    font-size: large;
+    
+    
+}
+
+h1 {
+    text-decoration: underline;
+    color:#A49A35;
+    margin-bottom: 50px;
+    margin-top: 40px;
+
+    }
+
+.eric{
+   height: 400px; 
+}
+
+h3{
+    text-decoration: underline;
+    color:#A49A35; 
+}
+

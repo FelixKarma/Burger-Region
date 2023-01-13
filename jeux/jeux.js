@@ -37,13 +37,13 @@ document.addEventListener("keydown", function (event) {
 
 // let currentScore = 0;
 
-function updateScore() {
+// function updateScore() {
   // Sélectionne l'élément div avec l'id "game-score"
-  const scoreElement = document.getElementById("game-score");
+  // const scoreElement = document.getElementById("game-score");
 
   // Met à jour le contenu HTML de l'élément avec le score actuel
-  scoreElement.innerHTML = "Score: " + currentScore;
-}
+  // scoreElement.innerHTML = "Score: " + currentScore;
+// }
 const startTime = Date.now();
 
 function updateScore() {

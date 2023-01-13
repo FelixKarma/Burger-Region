@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="recettes.css">
     <link rel="stylesheet" href="../Header/header.css">
+    <link rel="stylesheet" href="../Header/footer.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
     <title>Recettes</title>
 </head>
@@ -20,10 +21,13 @@
         <header class="main-header">
             <nav>
                 <ul class="ul-liste">
-                    <li class="ul-surli"> <a class="a-liens-nav" href="../comment participer/comment participer.html">Participez </a></li>
-                    <li class="ul-surli"> <a class="a-liens-nav" href="../les vainqueurs/vainqueurs.html">Top recette </a></li>
-                    <li class="ul-surli"> <a class="a-liens-nav" href="../versus/versus.html">Versus </a></li>
-                    <li class="ul-surli"> <a class="a-liens-nav" href="../partenaire/partenaire-2.html">Partenaires </a></li>
+                    <li class="ul-surli"> <a class="a-liens-nav"
+                            href="../comment participer/comment participer.html">Participez </a></li>
+                    <li class="ul-surli"> <a class="a-liens-nav" href="../les vainqueurs/vainqueurs.html">Top recette
+                        </a></li>
+                    <li class="ul-surli"> <a class="a-liens-nav" href="../page-carte/page-carte.html">Versus </a></li>
+                    <li class="ul-surli"> <a class="a-liens-nav" href="../partenaire/partenaire-2.html">Partenaires </a>
+                    </li>
                     <li class="ul-surli"> <a class="a-liens-nav" href="../connexion/connexion.html">Connexion </a></li>
                 </ul>
             </nav>
@@ -34,12 +38,20 @@
 
 
 
-    <h1 class="text-center"><img id="logoregion"src="/recettes/logoalsace.png" alt="">BURGER GRAND EST</h1>
+    <h1 class="text-center"><img id="logoregion"src="../recettes/logoalsace.png" alt="">BURGER GRAND EST <a href="recettedownload.txt" download="recettedownload.txt"><img class="float" src="/recettes/Download.png" download alt=""></a></h1>
     <div id="conteneur">
         <div >
 
-            <img class="imgburger"src="/recettes/burger alsacien.jpg" alt="burger nord"> 
-            <div class="img-center"><img id="bg-img" src="../recettes/miam!.png" alt=""></div>
+            <img class="imgburger"src="../recettes/burger alsacien.jpg" alt="burger nord"> 
+            <div class="compteur">
+
+                <div class="img-center">
+                    <button id="like-button" class="bg-img"><img src="../recettes/miam!.png" alt=""></button>
+                </div>
+                <span id="like-count" class="dim-cpt">1100 </span><img src="../les vainqueurs/burger rouge.png" alt="">
+                
+    
+            </div>
                         
         </div>
 
@@ -70,10 +82,37 @@
             <li>Ajoutez dans le liquide crémeux une pointe de muscade</li>
             <li>Prenez l’ail pelé et pilé et versez dans les steaks hachés</li>
             <li>Il est aussi possible de tartiner le burger de moutarde si besoin.</li>
+           
         </ul>
         </div>             
     </div>
 
+    <footer class="footer-distributed">
+
+        <div class="footer-right">
+
+                <a href="https://fr-fr.facebook.com/"><i class="fa fa-facebook"></i><img class="imagedim" src="../Header/facebook.png" alt=""></a>
+                <a href="https://twitter.com/"><i class="fa fa-twitter"></i><img class="imagedim" src="../Header/twitter.png" alt=""></a>
+                <a href="https://fr.linkedin.com/"><i class="fa fa-linkedin"></i><img class="imagedim" src="../Header/Logo Linkedin.png" alt=""></a>
+
+
+        </div>
+
+        <div class="footer-left">
+
+                <p class="footer-links">
+                        <a class="link-1" href="../Acceuil/Acceuil.html">HOME</a>
+
+                        <a href="../jeux/jeux.html">JEU</a>
+
+                        <a href="../partenaire/partenaire-2.html">PARTENAIRES</a>
+                </p>
+
+                <p>BURGER REGION &copy; 2023</p>
+        </div>
+
+</footer>
+<script src="like.js"></script>
     </body>
 </html>
 

@@ -1,38 +1,44 @@
-*{
-    from-family:avenir,sans-serif;
 
-}
-.contenaire{
+.contenaire1{
     margin-top: 100px;
     display: flex;
 justify-content: space-evenly
     }
 
-h1 {
+    .contenaire2{
+      margin-top: 100px;
+      margin-left: 20px;
+      display: flex;
+  justify-content: space-evenly
+  
+      }
+
+.h1 {
      color: #a49a35;
      text-align: center;
 }
   
-
-  
-.figure{
-    border: 1px solid #a49a35;;
-    padding:5px;
-    width: 100px;
-}
-   
+    
  figcaption{
     color:#a49a35 ;
     text-emphasis-color:#a49a35;
     text-align: center;
     font-stretch:extra-condensed;
+    font-size: 25px;
  } 
   
   .imgdim{
     height: 150px;
     width: 150px;
   }
+
+  .a{
+
+    text-decoration: none;
+    
+  }
    
+  
   
     
   

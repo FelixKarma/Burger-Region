@@ -1,0 +1,46 @@
+.titre-vainqueur{
+    
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    color: azure;
+    font-size: 50px;
+
+}
+.img-couteau{
+    height: 250px;
+
+}
+
+.imgdim {
+height: 200px;
+width: 320px;
+
+
+}
+
+.contener {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px
+}
+
+h5 {
+    color:white;
+    font-size: 25px;
+    text-align: center;
+    }
+
+h4{
+color: black;
+text-align: center;
+font-weight: bolder;
+}
+
+.bgimg{
+background-color: white;
+padding: 5px 5px 40px 5px;}
+
+.font-titre{
+  font-family: 'italianno', sans-serif;
+}

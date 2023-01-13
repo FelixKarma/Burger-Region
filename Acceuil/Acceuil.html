@@ -7,8 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acceuil</title>
     <link rel="stylesheet" href="Acceuil.css">
+    <link rel="stylesheet" href="../Acceuil/acceuil.js">
     <link rel="stylesheet" href="../Header/header.css">
+    <link rel="stylesheet" href="../Header/footer.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -19,15 +23,24 @@
         <header class="main-header">
             <nav>
                 <ul class="ul-liste">
-                    <li class="ul-surli"> <a class="a-liens-nav" href="../comment participer/comment participer.html">Participez </a></li>
-                    <li class="ul-surli"> <a class="a-liens-nav" href="../les vainqueurs/vainqueurs.html">Top recette </a></li>
-                    <li class="ul-surli"> <a class="a-liens-nav" href="../versus/versus.html">Versus </a></li>
-                    <li class="ul-surli"> <a class="a-liens-nav" href="../partenaire/partenaire-2.html">Partenaires </a></li>
+                    <li class="ul-surli"> <a class="a-liens-nav"
+                            href="../comment participer/comment participer.html">Participez </a></li>
+                    <li class="ul-surli"> <a class="a-liens-nav" href="../les vainqueurs/vainqueurs.html">Top recette
+                        </a></li>
+                    <li class="ul-surli"> <a class="a-liens-nav" href="../page-carte/page-carte.html">Versus </a></li>
+                    <li class="ul-surli"> <a class="a-liens-nav" href="../partenaire/partenaire-2.html">Partenaires </a>
+                    </li>
                     <li class="ul-surli"> <a class="a-liens-nav" href="../connexion/connexion.html">Connexion </a></li>
                 </ul>
             </nav>
+        </header>
     </div>
-    </header>
+
+
+
+
+
+
 
     <div class="rectangle1">
         <h3 class="text-center">
@@ -36,115 +49,99 @@
             <span class="red">de vos region</span>
         </h3>
 
+
         <div class="ulrecette">
-            <p>Nous avons mis en place un systéme de compétition de chaque regions afin d'obtenir les meilleurs notes
+            <p>Nous avons mis en place un systéme de compétition entre chaque région 
                 pour vous aidez a choisir vos prochains choix, ou crée vos propre burger grace au recette.
                 Nous prenons ce temps pour vous et pour notre communauté qui nous suit depuis longtemps, et aussi car
-                nous sommes des passionné des burger
-                et nous sommes très heureux de vous partagez celà.
-                Nous réunirons chaque chef cuisine expirimenté dans le domaine de la restauration, dans notre local
-                tournament, nous analyserons chaque details et la saveur du burger
-                afin de partagez tout ceci sur notre chaine youtube ou notre site.
+                nous sommes des passionné des burger et nous sommes très heureux de vous partagez celà.</p>
+
+                <p>Vous pourrez gagner en remportant le concours par région un bon de 50 EUROS chez nos partenaires, ainsi qu'une expositions pendant 1 MOIS
+                de votre burger chez un de nos partenaires!!
             </p>
+           <a href="../comment participer/comment participer.html"> <button style="cursor:url(cursor.cur), auto;" class="bouton-part">Participe a la compétition</button></a>
+
+            
         </div>
     </div>
+
+
     <div class="img-chef">
         <img src="../Acceuil/img-acc/chef-burger.png" alt="">
     </div>
     </div>
 
+    <div class="carousel">
+        <div class="slides">
+            <div class="slide"><img class="img-car" src="../Acceuil/img-acc/car4.png" alt=""></div>
+            <div class="slide"><img class="img-car" src="../Acceuil/img-acc/car3.png" alt=""></div>
+            <div class="slide"><img class="img-car" src="../Acceuil/img-acc/car2.png" alt=""></div>
+            <div class="slide"><img class="img-car" src="../Acceuil/img-acc/carouimg.png" alt=""></div>
+        </div>
+        <a class="prev" onclick="prevSlide()">&#10094;</a>
+        <a class="next" onclick="nextSlide()">&#10095;</a>
+    </div>
 
     <div class="second">
         <img class="img-star" src="img-acc/Star 2.png" alt="">
-        <h1>Champion de france 2022</h1>
+        <h1 class="h1">Champion de france 2022</h1>
         <img class="img-star" src="img-acc/Star 2.png" alt="">
     </div>
-    </div>
+
 
     <div class="bas">
 
-        <div class="bgimg"><a href="../recettes/recettes.html"><img class="imgdim"
+        <div class="bgimg"><a href="../recette gagnant/recette gagnant.html"><img class="imgdim"
                     src="../recettes/burger haut france.jpg" alt=""></a>
-            <h4>BURGER CHT'IT</h4>
+            <h4 class="h4">BURGER CHT'IT</h4>
         </div>
-        <p class="text-bas" >INTERVIEW <br> “C’est une véritable fierté d’avoir remporté le plus célébre des concours de burger en france. La renommé de
+        <p class="text-bas">INTERVIEW <br> “C’est une véritable fierté d’avoir remporté le plus célébre des concours de
+            burger en france. La renommé de
             ce concours m’a permis d’ouvrir mon restaurant et d’attirer un max de client!!
-            Merci à toute la team et aux internautes qui ont du bien déguster!”X.P Burger Forever</p>
+            Merci à toute la team et aux internautes qui ont du bien déguster!”</p>
 
-        <div class="bgimg"><a href="../recettes/recettes.html"><img class="imgdim"
+        <div class="bgimg"><a href="https://fr.linkedin.com/in/romain-wyon-77b65b205"><img class="imgdim"
                     src="../Acceuil/img-acc/chefacc.jpg" alt=""></a>
-            <h4>Chef Romain et sa recette</h4>
+            <h4 class="h4">Chef Romain et sa recette</h4>
         </div>
 
     </div>
-    <div class=emp-but >
-    <a href="../les vainqueurs/vainqueurs.html" class="but-rec">Recette</a>
+    <div class=emp-but>
+        <a href="../recette gagnant/recette gagnant.html" class="but-rec">Recette</a>
     </div>
 
 
 
 
+    <footer class="footer-distributed">
+
+        <div class="footer-right">
+
+            <a href="https://fr-fr.facebook.com/"><i class="fa fa-facebook"></i><img class="imagedim"
+                    src="../Header/facebook.png" alt=""></a>
+            <a href="https://twitter.com/"><i class="fa fa-twitter"></i><img class="imagedim"
+                    src="../Header/twitter.png" alt=""></a>
+            <a href="https://fr.linkedin.com/"><i class="fa fa-linkedin"></i><img class="imagedim"
+                    src="../Header/Logo Linkedin.png" alt=""></a>
 
 
-
-
-<footer class="site-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-md-6">
-          <h6>About</h6>
-          <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
         </div>
 
+        <div class="footer-left">
 
+            <p class="footer-links">
+                <a class="link-1" href="../Acceuil/Acceuil.html">HOME</a>
 
-        <div class="col-xs-6 col-md-3">
-          <h6>Quick Links</h6>
-          <ul class="footer-links">
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Contribute</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Sitemap</a></li>
-          </ul>
-        </div>
-      </div>
-      <hr>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-sm-6 col-xs-12">
-          <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
-       <a href="#">Scanfcode</a>.
-          </p>
+                <a href="../jeux/jeux.html">JEU</a>
+
+                <a href="../partenaire/partenaire-2.html">PARTENAIRES</a>
+            </p>
+
+            <p>BURGER REGION &copy; 2023</p>
         </div>
 
-        <div class="col-md-4 col-sm-6 col-xs-12">
-          <ul class="social-icons">
-            <li><a class="facebook" href="https://twitter.com/?lang=fr"> <img src="../Acceuil/img-acc/twitter.png"><i class="fa fa-facebook"></i></a></li>
-            <li><a class="twitter" href="https://fr-fr.facebook.com/"> <img src="../Acceuil/img-acc/facebook.png"><i class="fa fa-twitter"></i></a></li>
-            <li><a  class="dribbble" href="https://www.instagram.com/"><img src="../Acceuil/img-acc/insta.png"><i class="fa fa-dribbble"></i></a></li>
-            <li><a  class="linkedin" href="https://www.pinterest.fr/"><img src="../Acceuil/img-acc/pinterest.png"><i class="fa fa-linkedin"></i></a></li>   
-          </ul>
-        </div>
-      </div>
-    </div>
-</footer>
-
-
-
-
-
+    </footer>
+    <script src="acceuil.js"></script>
 </body>
 
-</html> 
-
-
-
-
-
-
-
-
-
-
+</html>

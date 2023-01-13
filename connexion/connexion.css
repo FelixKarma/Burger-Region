@@ -1,10 +1,4 @@
-body {
 
-    font-family: 'Roboto', sans-serif;
-    background-image: url(/Burger-Region/imgasset/background_pierre.png);
-    
-background-size: cover;
-}
 /* Centrer */
 form{
     margin-top: 100px;   
@@ -18,14 +12,14 @@ form{
     align-items: center;
     
 }
-input{
+.inputform{
     border-radius: 10px;
     font-size: 30px;
     background-color: #D9D9D9;
     
 }
 /* connexion  */
-h2
+.h2
 {
     text-align: center;
     font-size: 30px;
@@ -34,7 +28,8 @@ h2
 }
 
 
-/* Couleur TEXTE{ */ p, a {
+/* Couleur TEXTE{ */ 
+    .p{
     text-align: center;
     font-size: 22px;
     color: white;
@@ -43,7 +38,9 @@ h2
 
 .password{
 color: white;
-margin-top: 50px;  
+margin-top: 50px;
+text-align: center;
+    font-size: 22px; 
 
 }
 button{
@@ -55,9 +52,15 @@ font-size: 20px;
     float: right;
     margin-top: 4px
 }
-a{
+.a{
 display: flex;
+text-align: center;
     margin-top: 5px;
     font-size: 22px;
-    color: #D9D9D9
+    color: white;
 }
+
+button:hover{
+
+    background-color: chartreuse;
+  }

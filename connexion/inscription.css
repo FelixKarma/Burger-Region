@@ -1,10 +1,10 @@
 
-h1{
+.h1{
   text-align: center;
     margin-top: 100px;
     color: white ;
 }
-p{
+.p{
   margin-left: 15px;
 border-radius: 10px;
     color: white;
@@ -45,9 +45,19 @@ button{
   color: white;
   font-size: large;
   font-weight: bolder;
+  
 }
 
 .flex-row{
   display: flex;
   flex-direction: row;
+}
+
+.anndeco{
+  text-decoration: none;
+}
+
+button:hover{
+
+  background-color: chartreuse;
 }
