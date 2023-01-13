@@ -5,9 +5,11 @@ h1 {
   color: rgb(239, 236, 236);
 }
 .carte {
-  margin-top: 60px;
+  margin-top: 50px;
   display: flex;
-  justify-content: center;
+  justify-content:space-around;
+  margin-left: 140px;
+  
 }
 .titre {
   display: flex;
@@ -23,6 +25,7 @@ area:hover {
 
 .contenaire-c-r {
   display: flex;
+  
   justify-content: space-around;
 }
 .region-block1 {
