@@ -2,9 +2,8 @@
   color: white;
   font-size: large;
 }
-
 .rectangle1 {
-  rotate: -10deg;
+  /* rotate: -10deg; */
   margin-left: 1.5cm;
   margin-top: 3cm;
   padding: 15px;
@@ -15,30 +14,25 @@
   border-style: solid;
   border-color: #a49a35;
 }
-
 .text-center {
   font-size: 25px;
   color: rgb(255, 255, 255);
   position: center;
   text-align: center;
 }
-
 .red {
   color: red;
 }
-
 .white {
   color: rgb(255, 255, 255);
 }
-
 .blue {
   color: blue;
 }
-
 .img-chef {
-    /* position: absolute; */
-   margin-left: 1100px;
-   margin-top: -8cm;
+    position: absolute;
+   margin-left: 1200px;
+   margin-top: -9cm;
 }
 .img-burgi {
   height: 100px;
@@ -57,8 +51,6 @@
 .bas{
 display: flex;
 justify-content: space-evenly;
-
-
 }
 .imgdim {
   height: 200px;
@@ -68,47 +60,103 @@ justify-content: space-evenly;
   background-color: white;
   padding: 5px 5px 30px 5px;
 }
-
 .text-bas{
   text-align: center;
   color: azure;
   font-size: 20px;
-  
   width: 320px;
 }
 .h4 {
-  
-  text-align: center;
-
+ text-align: center;
 }
-
 .emp-but{
-  
   display: flex;
   justify-content: flex-start ;
   margin-top: 50px;
   margin-left: 230px;
   }
-
-.but-rec{
-  text-decoration: none;
-  color: #fff;
-  border: none;
- font-size: 30px;
-font-weight: bold;
-background-color: grey;
-padding: 1px 10px 1px 10px;
-border-radius: 20px 20px 20px 20px;
+  .but-rec{
+    text-decoration: none;
+    color: #fff;
+    border: none;
+   font-size: 30px;
+  font-weight: bold;
+  background-color: grey;
+  padding: 1px 10px 1px 10px;
+  border-radius: 20px 20px 20px 20px;
+  }
+  .container {
+    width: 90%;
+    padding-right: 1px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .carousel {
+    margin-top: 100px;
+    text-align: center;
+    /* position: absolute; */
+    width: 100%;
+  }
+  .slides {
+    display: flex;
+  }
+  .slide {
+    width: 100%;
+    display: none;
+  }
+  .prev, .next {
+    cursor: pointer;
+    /* position: flex; */
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 36px;
+    color: white;
+    font-weight: bold;
+    font-size: 58px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+  }
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+.img-car{
+  /* height: 10cm; */
 }
-
-.container {
-  width: 90%;
-  padding-right: 1px;
-  padding-left: 10px;
-  margin-right: auto;
-  margin-left: auto;
-  
+.bouton-part{
+ padding: 10px;
+ margin-top: -10px;
+  margin-left: 420px;
+  background-color: rgb(187, 173, 19);
+  border-radius: 10px;
+  font-weight:bold;
+}
+.bouton-part:hover{
+  background-color:chartreuse;
 }
   
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+  
+
+
+
+
 
 

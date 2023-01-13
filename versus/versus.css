@@ -1,5 +1,5 @@
 .titre-vainqueur{
-    font-family: 'italianno', sans-serif;
+    
     margin-top: 150px;
     display: flex;
     justify-content: center;
@@ -39,4 +39,8 @@ font-weight: bolder;
 
 .bgimg{
 background-color: white;
-padding: 5px 5px 40px 5px;
+padding: 5px 5px 40px 5px;}
+
+.font-titre{
+  font-family: 'italianno', sans-serif;
+}
