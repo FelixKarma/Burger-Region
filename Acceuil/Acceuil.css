@@ -130,8 +130,8 @@ justify-content: space-evenly;
   background-color: rgb(187, 173, 19);
   border-radius: 10px;
   font-weight:bold;
+  .bouton-part:hover{
 }
-.bouton-part:hover{
   background-color:chartreuse;
 }
   
