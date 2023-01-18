@@ -1,3 +1,6 @@
+body {
+  overflow: hidden;
+}
 .game {
   background-color: #dbdadf;
   position: absolute;
@@ -87,3 +90,44 @@
   margin: 20px;
   text-align: center;
 }
+.score1 {
+  
+  margin-top: 10cm;
+  margin-left: 16.3cm;
+  color: azure;
+}
+.Top1 {
+  font-size: xx-large;
+  
+}
+.Top2 {
+  font-size: x-large;
+}
+.Top3 {
+  font-size: large;
+}
+.Ptop1 {
+  height: 25px;
+}
+.Ptop2 {
+  height: 25px;
+}
+.Ptop3 {
+  height: 25px;
+}
+.consi {
+  color: #edebf3;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 17cm;
+  margin-right: 17cm;
+  
+  background-color: rgb(150, 147, 147);
+  
+  border-radius: 10px 10px 10px 10px;
+}
+.space{
+margin-top: 0.5cm;
+}
+
+  

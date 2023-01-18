@@ -24,7 +24,7 @@ let isAlive = setInterval(function () {
   // detect collision
   if (cactusLeft < 50 && cactusLeft > 0 && dinoTop >= 140) {
     // collision
-    // alert("Ton score: " + Math.round(currentScore));
+    alert("Ton score: " + Math.round(currentScore));
     if (window.confirm("Ton score: " + Math.round(currentScore))) {
       window.location = "http://127.0.0.1:5500/Burger-Region/jeux/jeux.html";
     }
@@ -35,15 +35,14 @@ document.addEventListener("keydown", function (event) {
   jump();
 });
 
-// let currentScore = 0;
 
-// function updateScore() {
+ function updateScore() {
   // Sélectionne l'élément div avec l'id "game-score"
-  // const scoreElement = document.getElementById("game-score");
+   const scoreElement = document.getElementById("game-score");
 
   // Met à jour le contenu HTML de l'élément avec le score actuel
-  // scoreElement.innerHTML = "Score: " + currentScore;
-// }
+  scoreElement.innerHTML = "Score: " + currentScore;
+}
 const startTime = Date.now();
 
 function updateScore() {
