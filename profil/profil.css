@@ -54,11 +54,21 @@ text-align: center;
     text-align: center;
 }
 
+.hwhite {
+  color: white;
+}
+
 button{
     background-color: transparent;
     border: none;
 }
 
+
+.imgsadburg {
+height: 70px;
+width: 70px;
+
+}
 
 /* boutton supression burger */
 
@@ -106,7 +116,7 @@ button {
     width: 100%; /* Full width */
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
-    background-color: #474e5d;
+    background-color: transparent;
     padding-top: 50px;
   }
   
