@@ -44,8 +44,23 @@
         <h5 class="h5"><img src="burger rouge.png" alt="burger rouge"> 1200</h5>
 
         <img class="imgburger bgimg" src="../recettes/burger franche comté.PNG" alt="">
-        <button style="cursor: pointer;" onclick="if(confirm('Voulez-vous vraiment supprimer votre BURGER?')){location.href='//127.0.0.1:5502/profil/profil%20vide.html'}else{alert('Opération annulée')}"><img src="poubelle.png" alt="poubelle rouge"></button>
-        
+        <button onclick="document.getElementById('id01').style.display='block'"><img src="poubelle.png" alt="poubelle rouge"></button>
+        <div id="id01" class="modal">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
+            <form class="modal-content" action="/action_page.php">
+              <div class="container">
+                <h1>Delete BURGER</h1>
+                <p>Etes vous sur de vouloir supprimer votre BURGER?</p>
+              
+                <div class="clearfix">
+                  <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">ANNULER</button>
+                  <a href="../profil/profil vide.html"><button type="button" onclick="document.getElementById('id01').style.display='none'" class="deletebtn">SUPPRIMER</button></a>
+                </div>
+              </div>
+            </form>
+          </div>
+
+
 
         <div class="bgtitle">
             <p class="p">Mes Favoris :</p>
@@ -109,6 +124,8 @@
     
     </footer>
 
+    <script src="profil.js">    
+        </script>
 </body>
 
 </html>
