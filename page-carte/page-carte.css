@@ -59,3 +59,35 @@ li {
 .el-liens {
   margin-right: 10px;
 }
+
+.bgimg{
+  background-color: white;
+  padding: 5px 5px 40px 5px;}
+
+  .contener {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px
+}
+
+.imgdim {
+  height: 200px;
+  width: 320px;}
+
+  h5 {
+    color:white;
+    font-size: 25px;
+    text-align: center;
+    }
+
+  
+h1{
+
+  color: white;
+}
+
+.font-titre{
+  font-family: 'italianno', sans-serif;
+  font-size: 50px;
+  
+}

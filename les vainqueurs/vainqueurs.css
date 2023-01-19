@@ -43,3 +43,8 @@ padding: 5px 5px 40px 5px;
     text-align: center;
 
 }
+
+.font-titre{
+    font-family: 'italianno', sans-serif;
+    font-size: 50px;
+  }

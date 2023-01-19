@@ -5,6 +5,8 @@
     justify-content: center;
     color:#A49A35 ;
     font-size: 50px;
+    
+    
 
 }
 .img-couteau{
@@ -44,4 +46,11 @@ padding: 5px 5px 40px 5px;}
 
 .font-titre{
   font-family: 'italianno', sans-serif;
+}
+
+.imgreg{
+
+    height: 150px;
+    padding: 50px;
+
 }
