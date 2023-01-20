@@ -1,0 +1,33 @@
+p{
+
+    color: red;
+    text-align: center;
+    font-size: 60px;
+}
+
+.error{
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img{
+
+    height: 575px;
+    margin-bottom: 1100px;
+}
+.imgflex {
+
+    display: flex;
+    justify-content: center;
+}
+
+.bgimg{
+
+    height: 100px;
+    margin-top: 50px;
+
+}
